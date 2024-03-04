@@ -20,7 +20,7 @@ export const Skills = () => {
                 key={item.title}
                 iconUrl={item.icon}
                 title={item.title}
-                isActive={selectedSkill.title == item.title}
+                isActive={selectedSkill.title === item.title}
                 onClick={() => {
                   handleSelectedSkill(item);
                 }}

@@ -10,7 +10,11 @@ export const ContactCard = ({iconUrl,text}) => {
           alt={text}
         />
       </div>
-      <p>{text}</p>
+      <p>
+    
+          {text}
+      
+      </p>
     </div>
   );
 }
