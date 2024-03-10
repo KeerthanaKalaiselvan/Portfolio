@@ -32,6 +32,7 @@ export const ProjectCard = ({ index, handleClick }) => {
             target="blank">
             Project Link
           </a>
+          {gitHub}
           <p className="procard-about">{about}</p>
         </div>
       </div>
