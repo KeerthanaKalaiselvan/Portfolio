@@ -73,3 +73,36 @@ export const WORK_EXPERIENCE = [
             "Employing algorithms like Logistic Regression, Decision Trees, or Support Vector Machines for tasks like spam detection, sentiment analysis, or image classification."],
     }
 ];
+export const PROJECTS = [{
+    title: "Codebook",
+    imageURL: "./assets/images/codeBook.png",
+    skill: "HTML5, TailwindCSS, React.js",
+    about: " Developed complex user interfaces with HTML, CSS, JavaScript, React and ensured a user-friendly experience.Built and tested application functionality to ensure a desirable user experience across all platforms.Translated complex design requirements into interactive user experiences to promote customer engagement.Deployed using Netlify and Render tool. Implemented styles using TailwindCSS and bootstrap.Designed and developed a reusable component library for future use, resulting in a reduction in development time for new projects.Optimized components for maximum performance across a vast array of web - capable devices and browsers, resulting in a 30 % increase in user engagement and a 10 % increase in revenue.Utilized Redux for state management, resulting in a 25 % reduction in code complexity and a 15 % increase in team productivity.",
+    gitHub: "",
+    websiteLink: "https://bright-taffy-7863df.netlify.app"
+},
+{
+    title: "Cinematic Universe",
+    imageURL: "./assets/images/cinematicUniverse.png",
+    skill: "HTML5, TailwindCSS, React.js",
+    about: " Developed and maintained user interfaces using React.js, resulting in a 30% reduction in development time for new projects.Utilized HTML5 and CSS3 technologies to design, develop, and debug seamless web applications on multiple browsers and platforms.Optimized the user interface for increased responsiveness, achieving an improved user experience for customers by using React inbuilt libraries.Deployed using Netlify. Implemented styles using TailwindCSS and bootstrap.",
+    gitHub: "",
+    websiteLink: "https://fantastic-fenglisu-be73eb.netlify.app"
+},
+    {
+        title: "Codebook2",
+        imageURL: "./assets/images/codeBook.png",
+        skill: "HTML5, TailwindCSS, React.js",
+        about: " Developed complex user interfaces with HTML, CSS, JavaScript, React and ensured a user-friendly experience.Built and tested application functionality to ensure a desirable user experience across all platforms.Translated complex design requirements into interactive user experiences to promote customer engagement.Deployed using Netlify and Render tool. Implemented styles using TailwindCSS and bootstrap.Designed and developed a reusable component library for future use, resulting in a reduction in development time for new projects.Optimized components for maximum performance across a vast array of web - capable devices and browsers, resulting in a 30 % increase in user engagement and a 10 % increase in revenue.Utilized Redux for state management, resulting in a 25 % reduction in code complexity and a 15 % increase in team productivity.",
+        gitHub: "",
+        websiteLink: "https://bright-taffy-7863df.netlify.app"
+    },
+    {
+        title: "Cinematic Universe2",
+        imageURL: "./assets/images/cinematicUniverse.png",
+        skill: "HTML5, TailwindCSS, React.js",
+        about: " Developed and maintained user interfaces using React.js, resulting in a 30% reduction in development time for new projects.Utilized HTML5 and CSS3 technologies to design, develop, and debug seamless web applications on multiple browsers and platforms.Optimized the user interface for increased responsiveness, achieving an improved user experience for customers by using React inbuilt libraries.Deployed using Netlify. Implemented styles using TailwindCSS and bootstrap.",
+        gitHub: "",
+        websiteLink: "https://fantastic-fenglisu-be73eb.netlify.app"
+    },
+];

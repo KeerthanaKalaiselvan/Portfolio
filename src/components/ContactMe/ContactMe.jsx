@@ -13,11 +13,13 @@ export const ContactMe = () => {
         <div style={{ flex: 1 }}>
           <ContactCard
             iconUrl="./assets/images/icons8-mail-64.png"
-            text="keerthanajk24@gmail.com"
+            text="mailto:keerthanajk24@gmail.com"
+            info="Gmail"
           />
           <ContactCard
             iconUrl="./assets/images/icons8-github-50.png"
             text="https://github.com/KeerthanaKalaiselvan"
+            info="github"
           />
         </div>
         <div style={{ flex: 1 }}>

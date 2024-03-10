@@ -2,6 +2,7 @@
 import './App.css';
 import { Hero, Navbar, Skills, WorkExperience, ContactMe, Footer, Projects } from './components'
 
+
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
        
         <WorkExperience />
         <Projects />
+      
         <ContactMe />
         <Footer />
         

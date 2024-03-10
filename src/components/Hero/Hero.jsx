@@ -1,7 +1,23 @@
 import React from "react";
 import "./Hero.css";
-
+import Typed from "typed.js";
+import { useRef, useEffect } from "react";
 export const Hero = () => {
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Frontend Developer", "Designer", "Engineer", "Consultant"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backdelay: 1000,
+      loop: true
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <section
       className="hero-container"
@@ -9,8 +25,9 @@ export const Hero = () => {
       <div className="hero-content">
         <h2>Building Digital Experiences That Inspire</h2>
         <p>
-          Passionate Frontend Developer | Transforming Ideas into Seamless and
-          Visually Stunning Web Solutions
+          Passionate <span ref={el}></span>
+          <br />
+          Transforming Ideas into Seamless and Visually Stunning Web Solutions
         </p>
       </div>
       <div className="hero-img">

@@ -8,8 +8,11 @@
     margin: 0 1rem;
     overflow:scroll;
 
-
 }
+.work-experience-card:hover{
+box-shadow: 0 0 10px #a993fe;
+}
+
 
 .work-experience-card h6 {
 

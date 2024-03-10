@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./Navbar.css";
 import { MobileNav } from "./MobileNav/MobileNav";
 
@@ -22,7 +23,7 @@ export const Navbar = () => {
             className="logo"
           />
           <ul>
-            <li >
+            <li>
               <a
                 href="#navbar"
                 className="menu-item">
@@ -41,6 +42,13 @@ export const Navbar = () => {
                 href="#workExperience"
                 className="menu-item">
                 Work Experience
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
+                className="menu-item">
+                Projects
               </a>
             </li>
             <li>
